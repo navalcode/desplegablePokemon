@@ -1,0 +1,11 @@
+
+<p>Selecciona un pokemon</p>
+<br>
+<mat-form-field appearance="fill">
+    <mat-label>Lista de pokemon</mat-label>
+    <mat-select [(ngModel)]="pokemonList" >
+        <mat-option *ngFor="let pokemon of pokemonList; let i = index" (click)="showPokemon(pokemon.name)" > {{pokemon.name}}</mat-option>
+    </mat-select>
+</mat-form-field>
+
+
