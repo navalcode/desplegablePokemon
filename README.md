@@ -1,18 +1,25 @@
-# Pokémon list components
+# Pokémon selection with Angular
 
 [English](#overview) · [Español](#resumen)
 
 ## Overview
 
-Angular/TypeScript exercise with Pokemon list component.
+Angular exercise with a Pokémon list and selection component. Start with the list component, then follow its data request through the service.
 
-An earlier learning exercise. The source is preserved with its original toolchain; compatibility with current versions has not been revalidated.
+The original Angular 12 toolchain is retained. API availability, loading/error states and responsive behavior have not been revalidated.
+
+- [`pokemon-list.component.ts`](src/app/pokemon-list/pokemon-list.component.ts)
+- [`pokemon-service.service.ts`](src/app/Services/pokemon-service.service.ts)
+
+[package.json](package.json): The package file records the original scripts and dependencies; package-lock.json retains their resolution.
 
 ## Resumen
 
-Ejercicio Angular/TypeScript con componente de listado Pokémon.
+Ejercicio Angular con un componente de listado y selección de Pokémon. El componente permite seguir la selección y el servicio muestra cómo se solicitan los datos.
 
-Ejercicio de una etapa anterior de aprendizaje. Se conserva con sus herramientas originales; no se ha vuelto a validar con versiones actuales.
+Se conserva el toolchain original de Angular 12. No se han vuelto a comprobar la disponibilidad de la API, los estados de carga/error ni el comportamiento responsive.
+
+Consulta los archivos enlazados arriba para seguir la implementación. [package.json](package.json): El paquete recoge los scripts y dependencias originales; package-lock.json conserva su resolución.
 
 <details>
 <summary>Original documentation and credits · Documentación y créditos originales</summary>
